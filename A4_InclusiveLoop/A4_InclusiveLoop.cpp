@@ -1,25 +1,28 @@
-// A2_Averages.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// A4_InclusiveLoop.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
-#include <string>
-using namespace std;
 
 int main()
 {
-    int n1, n2, n3, n4;
+    int a, b;
+    std::cout << "Input First Number: ";
+    std::cin >> a;
 
-    cout << "Input an integers: ";
-    cin >> n1;
-    cout << "Input an integers: ";
-    cin >> n2;
-    cout << "Input an integers: ";
-    cin >> n3;
-    cout << "Input an integers: ";
-    cin >> n4;
+    std::cout << "Input Second Number: ";
+    std::cin >> b;
 
-    double avg = (n1 + n2 + n3 + n4) / 4.0;
-    cout << "Average: " << avg;
+    if (a > b)
+    {
+        int tmp = b;
+        b = a;
+        a = tmp;
+    }
+
+    for (int i = a; i <= b; i++)
+    {
+        std::cout << i << "\n";
+    }
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

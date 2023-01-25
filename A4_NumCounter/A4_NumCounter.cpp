@@ -1,25 +1,22 @@
-// A2_Averages.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// A4_NumCounter.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
-#include <string>
-using namespace std;
 
 int main()
 {
-    int n1, n2, n3, n4;
+    int i;
+    for (i = 0; /* no exit condition */; i++)
+    {
+        int tmp;
+        std::cout << "Input an integer (input a negative value to quit): ";
+        std::cin >> tmp;
 
-    cout << "Input an integers: ";
-    cin >> n1;
-    cout << "Input an integers: ";
-    cin >> n2;
-    cout << "Input an integers: ";
-    cin >> n3;
-    cout << "Input an integers: ";
-    cin >> n4;
+        if (tmp < 0)
+            break;
+    }
 
-    double avg = (n1 + n2 + n3 + n4) / 4.0;
-    cout << "Average: " << avg;
+    std::cout << "Found " << i << " numbers";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
