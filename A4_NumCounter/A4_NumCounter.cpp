@@ -6,14 +6,11 @@
 int main()
 {
     int i;
-    for (i = 0; /* no exit condition */; i++)
+    int tmp = 0;
+    for (i = 0; tmp < 0; i++)
     {
-        int tmp;
         std::cout << "Input an integer (input a negative value to quit): ";
         std::cin >> tmp;
-
-        if (tmp < 0)
-            break;
     }
 
     std::cout << "Found " << i << " numbers";
