@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Checkout</title>
+        <meta name="description" content="A Temp Checkout Example">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="d-flex justify-content-center mt-5">
+            <div class="w-50 p-3 bg-dark-subtle rounded-4 shadow-lg">
+                <h3 class="text-center">Light Shopping</h3>
+                <form class="">
+                    <div class="mb-3">
+                        <label for="name-input" class="form-label">Customer Name</label>
+                        <input type="text" class="form-control" id="name-input">
+                    </div>
+
+                    <hr />
+                    <p>Purchase Options</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="check-one">
+                        <label class="form-check-label" for="check-one">
+                            Four 25-Watt Light Bulbs ($2.39)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="check-two">
+                        <label class="form-check-label" for="check-two">
+                            Eight 25-Watt Light Bulbs ($4.29)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="check-three">
+                        <label class="form-check-label" for="check-three">
+                            Four 25-Watt Long-Life Light Bulbs ($3.95)
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="check-four">
+                        <label class="form-check-label" for="check-four">
+                            Four 25-Watt Long-Life Light Bulbs ($7.49)
+                        </label>
+                    </div>
+
+                    <hr />
+                    <p>Payment Type</p>
+                    <div class="d-inline-flex w-100">
+                        <div class="form-check flex-grow-1">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="payment-visa">
+                            <label class="form-check-label" for="payment-visa">
+                                Visa
+                            </label>
+                        </div>
+                        <div class="form-check flex-grow-1">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="payment-mc">
+                            <label class="form-check-label" for="payment-mc">
+                                Master Card
+                            </label>
+                        </div>
+                        <div class="form-check flex-grow-1">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="payment-discover">
+                            <label class="form-check-label" for="payment-discover">
+                                Discover
+                            </label>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div class="d-inline-flex w-100">
+                        <input class="flex-grow-1 mx-2 btn btn-danger" type="reset" value="Reset" />
+                        <input class="flex-grow-1 mx-2 btn btn-primary" type="submit" value="Submit" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" async defer></script>
+    </body>
+</html>

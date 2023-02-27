@@ -1,0 +1,65 @@
+td:first-child {
+    text-align: right;
+}
+
+.winning-score {
+    font-family: monospace;
+    font-size: large;
+    background-color: lightseagreen !important;
+}
+
+.losing-score {
+    font-family: monospace;
+    font-size: small;
+    background-color: lightcoral !important;
+}
+
+.team {
+    font-family: 'Gwendolyn', cursive;
+}
+
+#radford {
+    background-color: red;
+}
+
+#longwood {
+    background-color: blue;
+    color: white;
+}
+
+#winthrop {
+    background-color: gold;
+}
+
+#charleston {
+    background-color: blue;
+    color: white;
+}
+
+#presbyterian {
+    background-color: blue;
+    color: white;
+}
+
+#campbell {
+    background-color: orange;
+}
+
+#gardner-webb {
+    background-color: red;
+}
+
+#asheville {
+    background-color: blue;
+    color: white;
+}
+
+#usc {
+    background-color: green;
+    color: white;
+}
+
+#high-point {
+    background-color: purple;
+    color: white;
+}
